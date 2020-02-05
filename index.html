@@ -25,7 +25,11 @@
 		<img src="../01/hananene.png" style="float:center"  alt="blessed">
 		<h5> <i>ХА ХАА хахахха ...хм </i></h5>
 
-		<h5> <?php echo date("1"); ?> <h5>
+		<ul>
+			<?php for($i=1;$i<=5;$i++){ ?>
+				<li>Menu Item <?php echo $i; ?></li>
+			<?php } ?>
+		</ul>
 
 		<!--скрытый список ну типа и можна переходить-->
 		<details>
